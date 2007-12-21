@@ -27,6 +27,7 @@ BuildRequires:	libbhpos_hwlib-devel >= 2.0.0
 BuildRequires:	libbhpos_mflibs-devel >= 2.0.0
 BuildRequires:	libbhpos_mfposengine-devel >= 2.0.0
 BuildRequires:	gettext-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 BananaPOS Point Of Sale Terminal.
