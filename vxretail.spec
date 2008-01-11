@@ -59,17 +59,6 @@ convert share/images/splash.png -geometry 32x32 %{buildroot}%{_iconsdir}/%{name}
 convert share/images/splash.png -geometry 16x16 %{buildroot}%{_miconsdir}/%{name}.png
 
 # Mandriva Menus
-install -d %{buildroot}%{_menudir}
-cat > %{buildroot}%{_menudir}/%{name} <<EOF
-?package(%{name}): \
- command="%{_sbindir}/%{name}" \
- title="%{name}" \
- longtitle="BananaPOS Point Of Sale Terminal" \
- needs="x11" \
- icon="%{name}.png" \
- section="More Applications/Databases" \
- xdg="true"
-EOF
 
 # XDG menu
 install -d %{buildroot}%{_datadir}/applications
@@ -101,7 +90,6 @@ EOF
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/vxpos/vxretail-lite.conf
 %{_bindir}/vxretail
 %{_datadir}/bhpos2.0/images/*.png
-%{_menudir}/%{name}
 %{_iconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
 %{_liconsdir}/%{name}.png
