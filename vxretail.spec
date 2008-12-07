@@ -18,7 +18,7 @@ BuildRequires:	libtool >= 1.5
 BuildRequires:	libusb-devel >= 0.1.8
 BuildRequires:	libxml2 >= 2.5.8
 BuildRequires:	libxml++-devel >= 2.6
-BuildRequires:	MySQL-devel
+BuildRequires:	mysql-devel
 BuildRequires:	pkgconfig
 BuildRequires:	bhpos_base >= 2.0.0
 BuildRequires:	bhpos_base-devel >= 2.0.0
