@@ -10,7 +10,7 @@ Requires(post): desktop-file-utils
 Requires(postun): desktop-file-utils
 BuildRequires:	gtkmm2.4
 BuildRequires:	gtkmm2.4-devel
-BuildRequires:	ImageMagick
+BuildRequires:	imagemagick
 BuildRequires:	intltool
 BuildRequires:	libgtk+2-devel >= 2.6
 BuildRequires:	libsigc++2.0-devel >= 2.0
