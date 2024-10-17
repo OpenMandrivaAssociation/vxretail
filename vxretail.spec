@@ -4,7 +4,7 @@ Version:	2.0.0
 Release:	%mkrel 0.beta3.3
 License:	GPL
 Group:		Databases
-URL:		http://www.bananahead.com
+URL:		https://www.bananahead.com
 Source0:	http://www.bananahead.com/download/bhpos/stable/%{name}-%{version}.tar.bz2
 Requires(post): desktop-file-utils
 Requires(postun): desktop-file-utils
