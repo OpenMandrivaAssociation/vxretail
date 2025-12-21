@@ -8,6 +8,11 @@ URL:		https://www.bananahead.com
 Source0:	http://www.bananahead.com/download/bhpos/stable/%{name}-%{version}.tar.bz2
 Requires(post): desktop-file-utils
 Requires(postun): desktop-file-utils
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gtkmm2.4
 BuildRequires:	gtkmm2.4-devel
 BuildRequires:	imagemagick
