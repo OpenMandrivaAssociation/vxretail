@@ -1,7 +1,7 @@
 Summary:	BananaPOS Point Of Sale Terminal
 Name:		vxretail
 Version:	2.0.0
-Release:	%mkrel 0.beta3.3
+Release:	1
 License:	GPL
 Group:		Databases
 URL:		https://www.bananahead.com
